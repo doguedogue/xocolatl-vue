@@ -1,14 +1,14 @@
 <template>
-    <h1>Pedidos View</h1>
+    <PedidosComponent/>
 </template>
 
 
 <script>
-// import {defineAsyncComponent} from 'vue'
+import {defineAsyncComponent} from 'vue'
 
 export default {
     components:{
-        // HeroComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/HeroComponent')),
+        PedidosComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/PedidosComponent')),
     }    
 }
 </script>

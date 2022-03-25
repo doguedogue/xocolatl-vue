@@ -80,7 +80,7 @@ img .center {
     border-style: solid;
     border-color: #5788c4;
 }
-  
+/*   
 .aside {
     background-color: #161b22;
     padding: 15px;
@@ -92,7 +92,7 @@ img .center {
     border-width: 1px;
     border-style: solid;
     border-color: #1d2228;
-}
+} */
 /*   
 .footer {
     background-color: #161b22;
@@ -176,10 +176,10 @@ th {
 .shield {
     background-color: white;
 }
-
+/* 
 .inputform {
     width: 100%;
-}
+} */
 
 .rigth {
     text-align:right;
