@@ -1,14 +1,14 @@
 <template>
-    <h1>Pasteles View</h1>
+    <PastelesComponent/>
 </template>
 
 
 <script>
-// import {defineAsyncComponent} from 'vue'
+import {defineAsyncComponent} from 'vue'
 
 export default {
     components:{
-        // HeroComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/HeroComponent.vue')),
+        PastelesComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/PastelesComponent')),
     }    
 }
 </script>

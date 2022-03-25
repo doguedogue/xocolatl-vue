@@ -33,7 +33,11 @@ export default {
             path: 'contacto',
             name: 'contacto',
             component: () => import(/* webpackChunkName: "Cakery-Contacto" */ '@/modules/cakery/views/ContactoView'),
-        }
+        },  
+        { 
+            path: '/:pathMatch(.*)*', 
+            redirect: { name: 'cakery' }
+        },
 
     ]
 }
