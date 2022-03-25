@@ -6,7 +6,7 @@
 
 Descripción:
 
-[https://doguedogue.github.io/xocolatl-vue/](https://doguedogue.github.io/xocolatl-vue/)
+[https://icy-hill-0629dae0f.1.azurestaticapps.net](https://icy-hill-0629dae0f.1.azurestaticapps.net)
 
 Con Vuex vamos a estar captando las entradas de los formularios y guardandolos en el estado para mostrarlo del lado del pastelero, lo que necesitaremos para esta práctica será lo siguiente.
 
