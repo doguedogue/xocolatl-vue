@@ -1,14 +1,14 @@
 <template>
-    <h1>Contacto View</h1>
+    <ContactoComponent/>
 </template>
 
 
 <script>
-// import {defineAsyncComponent} from 'vue'
+import {defineAsyncComponent} from 'vue'
 
 export default {
     components:{
-        // HeroComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/HeroComponent')),
+        ContactoComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/ContactoComponent')),
     }    
 }
 </script>

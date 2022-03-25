@@ -240,8 +240,6 @@
 .blanco {
   height: 100px;
 }
-
-
 .right {
     text-align:right;
 }
