@@ -1,16 +1,15 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-
+import cakeryRouter from '../modules/cakery/router/'
+import bakerRouter from '../modules/baker/router/'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: () => import(/* webpackChunkName: "CakeryLayout" */ '../modules/cakery/layout/CakeryLayout')
+    ...cakeryRouter
   },
   {
     path: '/baker',
-    name: 'baker',
-    component: () => import(/* webpackChunkName: "BakerLayout" */ '../modules/baker/layout/BakerLayout')
+    ...bakerRouter
   }
 ]
 
