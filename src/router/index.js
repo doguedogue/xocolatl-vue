@@ -10,7 +10,11 @@ const routes = [
   {
     path: '/baker',
     ...bakerRouter
-  }
+  },  
+  { 
+      path: '/:pathMatch(.*)*', 
+      redirect: { name: 'cakery' }
+  },
 ]
 
 const router = createRouter({

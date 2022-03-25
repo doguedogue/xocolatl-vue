@@ -1,25 +1,18 @@
 <template>
   <div class="col-3 menu">
     <ul>
-      <a href="index.html"><li class="active">Home</li></a>
-      <a href="pasteles.html"><li>Pasteles</li></a>
-      <a href="personaliza.html"><li>Personaliza tu pastel</li></a>
-      <a href="pedidos.html"
-        ><li>
-          Pedidos
-          <img src="@/assets/img/food-cart.png" alt="" width="20px" /></li
-      ></a>
-      <a href="administracion.html"
-        ><li>
-          Administración
-          <img
+      <router-link :to="{ name: 'hero' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Home</li></router-link>
+      <router-link :to="{ name: 'pasteles' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Pasteles</li></router-link>
+      <router-link :to="{ name: 'personaliza' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Personaliza tu pastel</li></router-link>
+      <router-link :to="{ name: 'pedidos' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Pedidos
+        <img src="@/assets/img/food-cart.png" alt="" class="icon" /></li></router-link>
+      <router-link :to="{ name: 'administracion' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Administración
+        <img
             src="@/assets/img/shield.png"
-            alt=""
-            width="20px"
-            class="shield"
-          /></li
-      ></a>
-      <a href="contacto.html"><li>Contacto</li></a>
+            alt=""            
+            class="shield icon"
+          /></li></router-link>
+      <router-link :to="{ name: 'contacto' }" v-slot="{ isExactActive }"><li :class="isExactActive ? 'active' : 'normal'">Contacto</li></router-link>
     </ul>
   </div>
 </template>
@@ -51,8 +44,16 @@
 .active {
     background-color: #5788c4 !important;
 }
+
+.nomal {
+    background-color: #161b22;
+}
   
 .menu li:hover {
     background-color: #2d3238;
+}
+
+.icon{
+  width:20px;
 }
 </style>
