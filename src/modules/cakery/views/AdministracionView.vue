@@ -1,14 +1,14 @@
 <template>
-    <h1>Administración View</h1>
+    <AdministracionComponent/>
 </template>
 
 
 <script>
-// import {defineAsyncComponent} from 'vue'
+import {defineAsyncComponent} from 'vue'
 
 export default {
     components:{
-        // HeroComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/HeroComponent')),
+        AdministracionComponent: defineAsyncComponent ( () => import('@/modules/cakery/components/AdministracionComponent')),
     }    
 }
 </script>
