@@ -20,12 +20,16 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
   
-.header {
+/* .header {
     background-color: #161b22;
     color: #ffffff;
     padding: 15px;
     text-align:center;
 }
+
+img .center {
+    width: "200px";
+} */
   
 .menu ul {
     list-style-type: none;

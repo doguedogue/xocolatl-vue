@@ -1,14 +1,5 @@
 <template>
-    <header class="header">
-      <a href="index.html">
-        <img
-          class="center"
-          src="@/assets/img/xocolatl_logo.png"
-          alt="Logo Xocolatl"
-          width="200px"
-        />
-      </a>
-    </header>
+    <HeaderComponent></HeaderComponent>
    
     <main>
       <div class="row">
@@ -69,6 +60,13 @@
   <router-view/>
 </template>
 
-<style>
-  @import '@/styles/style.css';
-</style>
+<script>
+import {defineAsyncComponent} from 'vue'
+
+export default {
+    components:{
+        HeaderComponent: defineAsyncComponent ( () => import('@/shared/components/HeaderComponent.vue'))
+    }    
+}
+</script>
+
