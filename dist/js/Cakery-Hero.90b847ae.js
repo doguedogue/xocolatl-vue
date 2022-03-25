@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkxocolatl_vue"]=self["webpackChunkxocolatl_vue"]||[]).push([[780],{1726:function(n,e,o){o.r(e),o.d(e,{default:function(){return s}});var t=o(3396);function r(n,e,o,r,u,c){const a=(0,t.up)("HeroComponent");return(0,t.wg)(),(0,t.j4)(a)}var u={components:{HeroComponent:(0,t.RC)((()=>o.e(253).then(o.bind(o,4253))))}},c=o(89);const a=(0,c.Z)(u,[["render",r]]);var s=a}}]);
+//# sourceMappingURL=Cakery-Hero.90b847ae.js.map

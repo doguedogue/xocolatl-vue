@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkxocolatl_vue"]=self["webpackChunkxocolatl_vue"]||[]).push([[683],{6685:function(n,e,o){o.r(e),o.d(e,{default:function(){return s}});var t=o(3396);function r(n,e,o,r,u,a){const c=(0,t.up)("PersonalizaComponent");return(0,t.wg)(),(0,t.j4)(c)}var u={components:{PersonalizaComponent:(0,t.RC)((()=>o.e(659).then(o.bind(o,5659))))}},a=o(89);const c=(0,a.Z)(u,[["render",r]]);var s=c}}]);
+//# sourceMappingURL=Cakery-Personaliza.4e6a71b3.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkxocolatl_vue"]=self["webpackChunkxocolatl_vue"]||[]).push([[193],{1842:function(n,e,o){o.r(e),o.d(e,{default:function(){return a}});var t=o(3396);function u(n,e,o,u,c,r){const s=(0,t.up)("PedidosComponent");return(0,t.wg)(),(0,t.j4)(s)}var c={components:{PedidosComponent:(0,t.RC)((()=>o.e(679).then(o.bind(o,2679))))}},r=o(89);const s=(0,r.Z)(c,[["render",u]]);var a=s}}]);
+//# sourceMappingURL=Cakery-Pedidos.455a656f.js.map
