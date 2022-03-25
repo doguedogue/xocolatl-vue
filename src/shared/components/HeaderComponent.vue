@@ -16,7 +16,7 @@
     color: #ffffff;
     padding: 15px;
     text-align:center;
-    height: 200px;
+    height: 234px;
 }
 
 .center {
