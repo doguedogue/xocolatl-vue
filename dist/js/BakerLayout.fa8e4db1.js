@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkxocolatl_vue"]=self["webpackChunkxocolatl_vue"]||[]).push([[583],{4924:function(u,e,n){n.r(e),n.d(e,{default:function(){return o}});var r=n(3396);function t(u,e){return(0,r.wg)(),(0,r.iD)("h1",null,"Baker Layout")}var a=n(89);const c={},l=(0,a.Z)(c,[["render",t]]);var o=l}}]);
-//# sourceMappingURL=BakerLayout.fa8e4db1.js.map

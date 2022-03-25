@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkxocolatl_vue"]=self["webpackChunkxocolatl_vue"]||[]).push([[227],{2256:function(n,t,o){o.r(t),o.d(t,{default:function(){return s}});var e=o(3396);function c(n,t,o,c,u,r){const a=(0,e.up)("ContactoComponent");return(0,e.wg)(),(0,e.j4)(a)}var u={components:{ContactoComponent:(0,e.RC)((()=>o.e(698).then(o.bind(o,8698))))}},r=o(89);const a=(0,r.Z)(u,[["render",c]]);var s=a}}]);
-//# sourceMappingURL=Cakery-Contacto.523da058.js.map
