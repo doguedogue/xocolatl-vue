@@ -30,7 +30,8 @@ html {
 img .center {
     width: "200px";
 } */
-  
+
+/*   
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -59,7 +60,7 @@ img .center {
   
 .menu li:hover {
     background-color: #2d3238;
-}
+} */
 
 .card {
     border-radius: 5px;
@@ -92,7 +93,7 @@ img .center {
     border-style: solid;
     border-color: #1d2228;
 }
-  
+/*   
 .footer {
     background-color: #161b22;
     color: #ffffff;
@@ -102,9 +103,8 @@ img .center {
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
-    /* Height of the footer*/ 
     height: 40px;
-}
+} */
   
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -145,7 +145,7 @@ body{
     text-decoration: none;
 }
 
-
+/* 
 p.aranzazu {
     color:gray;
     font-size: 11px;
@@ -155,7 +155,7 @@ p.aranzazu {
     color:yellowgreen;
     font-size: 11px;
     text-decoration: none;
-}
+} */
 
 th, tr, td {
     border-width: 1px;

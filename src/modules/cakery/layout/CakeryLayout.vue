@@ -1,75 +1,36 @@
 <template>
-    <HeaderComponent></HeaderComponent>
-   
-    <main>
-      <div class="row">
-        <div class="col-3 menu">
-          <ul>
-            <a href="index.html"><li class="active">Home</li></a>            
-            <a href="pasteles.html"><li>Pasteles</li></a>
-            <a href="personaliza.html"><li>Personaliza tu pastel</li></a>
-            <a href="pedidos.html"><li>Pedidos <img src="@/assets/img/food-cart.png" alt="" width="20px"></li></a>
-            <a href="administracion.html"><li>Administración <img src="@/assets/img/shield.png" alt="" width="20px" class="shield"></li></a>
-            <a href="contacto.html"><li>Contacto</li></a>
-          </ul>
-        </div>
+  <HeaderComponent />
 
-        <div class="col-3 ">            
-            <div class="aside">
-              <img src="@/assets/img/flash-sale.png" alt="" width="100px" class="hero" />
-              <h1>Promociones</h1>
-              <br />
-              <h2>Martes de 2x1</h2>
-              <p>Haz tu pedido en línea</p>
-              <br />
-              <h2>Xocolatl Special</h2>
-              <p>Prueba nuestro nuevo pastel de 4 tipos de chocolate</p>
-            </div>
-          </div>
-  
-        <div class="col-5">
-          <h1>Pasteleria Xocolatl</h1>
-          <br />
-          <p>¡Porque todo buen recuerdo comienza con un pastel!</p>
-        </div>
-        <div class="col-5">
-          <img
-            src="@/assets/img/hero.gif"
-            alt="hero image"
-            width="380px"
-            class="hero"
-          />
-        </div>
-      </div>
-      <div class="col-2 blanco"></div>
-    </main>
+  <main>
+    <div class="row">
+      <MenuComponent />
 
-    <footer class="footer">
-      <p class="aranzazu">
-        &#169; Copyright 2022 Todas las imagenes son de mi pasteleria favorita
-        <a href="https://aranzazu.com/" class="aranzazu" target="_blank">
-          Aranzazu
-        </a>
-        es con fines educativos
-        <a href="https://github.com/doguedogue" class="github" target="_blank">
-          @doguedogue
-        </a>
-      </p>
-    </footer>
+      <router-view />
+    </div>
+    <div class="col-2 blanco"></div>
+  </main>
 
-  <router-view/>
+  <FooterComponent />
 </template>
 
 <script>
-import {defineAsyncComponent} from 'vue'
+import { defineAsyncComponent } from "vue";
 
 export default {
-    components:{
-        HeaderComponent: defineAsyncComponent ( () => import('@/shared/components/HeaderComponent.vue'))
-    }    
-}
+  components: {
+    HeaderComponent: defineAsyncComponent(() =>
+      import("@/modules/cakery/components/HeaderComponent.vue")
+    ),
+    FooterComponent: defineAsyncComponent(() =>
+      import("@/modules/cakery/components/FooterComponent.vue")
+    ),
+    MenuComponent: defineAsyncComponent(() =>
+      import("@/modules/cakery/components/MenuComponent.vue")
+    ),
+  },
+};
 </script>
 
 <style>
-  @import '@/styles/style.css';
+@import "@/styles/style.css";
 </style>

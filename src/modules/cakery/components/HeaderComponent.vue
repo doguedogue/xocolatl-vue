@@ -3,7 +3,7 @@
       <a href="index.html">
         <img
           class="center"
-          src="../../assets/img/xocolatl_logo.png"
+          src="@/assets/img/xocolatl_logo.png"
           alt="Logo Xocolatl"          
         />
       </a>
