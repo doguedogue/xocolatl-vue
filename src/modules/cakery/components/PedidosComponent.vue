@@ -5,7 +5,7 @@
   </div>
 
   <div class="col-6">
-    <form onsubmit="enviaFormulario(); return false;" id="forma" method="post">
+    <form v-on:submit.prevent="enviaFormulario" id="forma" method="post">
       <table>
         <tr>
           <th colspan="2">Tipo de Pastel</th>
@@ -169,6 +169,16 @@
   </div>
   <div class="col-4 blanco"></div>
 </template>
+
+<script>
+export default {
+  methods: {
+    enviaFormulario() {
+      alert("Gracias por tu pedido!\nNos comunicaremos pronto contigo");
+    },
+  },
+};
+</script>
 
 <style scoped>
 .aside {
