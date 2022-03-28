@@ -1,4 +1,4 @@
 
-export const myGetter = ( state ) => {
-	return state
+export const getPasteles = ( state ) => {
+	return state.pasteles
 }
