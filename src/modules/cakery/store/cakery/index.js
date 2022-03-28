@@ -4,7 +4,7 @@ import * as actions from './actions'
 import * as getters from './getters'
 import * as mutations from './mutations'
 
-const myCustomModule = {
+const cakeryModule = {
 	namespaced: true,
 	actions,
 	getters,
@@ -12,4 +12,4 @@ const myCustomModule = {
 	state
 }
 
-// export default myCustomModule
+export default cakeryModule
