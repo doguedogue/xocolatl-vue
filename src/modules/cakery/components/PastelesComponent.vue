@@ -16,7 +16,7 @@
     <div class="col-9">
       <h1>{{item.name}}</h1>
       <p>{{item.description}}</p>
-      <p>Precio: {{item.src + item.price}}</p>
+      <p>Precio: {{item.price}}</p>
     </div>
   </div>
   <div class="col-6 blanco"></div>
